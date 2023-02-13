@@ -69,4 +69,8 @@ Note:
 
 Bugs:   
    - The charts of confluence cannot be customize it need Confluence Wiki Software license.
+
+Sample Confluence Graph Output: 
+
+![Alt text](./images/metrics-graph2.jpg?raw=true "Confluence Graph")
    
