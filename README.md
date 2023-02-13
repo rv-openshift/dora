@@ -72,5 +72,5 @@ Bugs:
 
 Sample Confluence Graph Output: 
 
-![Alt text](./images/metrics-graph2.jpg?raw=true "Confluence Graph")
+![Alt text](./img/image1.jpg?raw=true "Confluence Graph")
    
