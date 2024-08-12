@@ -1,0 +1,32 @@
+---
+
+# namespace (this can be a list but slow the processing time)  
+ns: '["ns1","ns2","nsx"]'
+
+# url of confluence
+url: 'https://confluence.corp.domain.ca/rest/api/content/' 
+
+# confluence service token
+ctoken: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          xxxxxxxxx
+          xxxxxxxxx
+          xxxxxxxxx
+
+# openshift token (if blank, it will get it from the linux app but need to have oc binary and oc login before running this)
+ocptoken: 
+
+# openshift env server name
+svr: https://prometheus-k8s-openshift-monitoring.apps.ocuat.corp.domain.ca 
+
+# startdate metrics
+startdate: 
+
+# enddate metrics
+enddate: 
+
+# confluence page id  
+id: xxxxxx 
+
+# jsession id
+jsession_id: xxxxxxxx
